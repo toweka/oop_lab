@@ -19,6 +19,8 @@ require_relative "square.rb"
 
 require_relative "rectangle.rb"
 
+require_relative "circle.rb"
+
 square1 = Square.new 4, 5
 
 puts square1.answer
@@ -30,3 +32,9 @@ rectangle1 = Rectangle.new 4, 5, 7
 puts rectangle1.answer
 
 puts rectangle1.scaled_answer
+
+circle1 = Circle.new 4, 8, 7
+
+puts circle1.answer
+
+puts circle1.scaled_answer
