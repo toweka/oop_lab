@@ -16,7 +16,19 @@ class Rectangle
     (@length1 * 2) + (@length2 * 2)
   end
 
+  def scaled_area
+    (@length1 * @length2) * @scale
+  end
+
+  def scaled_perimeter
+    ((@length1 * 2) + (@length2 * 2)) * @scale
+  end
+
   def answer
     "Area: #{calculate_area} Perimeter: #{calculate_perimeter}"
+  end
+
+  def scaled_answer
+    "#SCALED Area: #{scaled_area} Perimeter: #{scaled_perimeter}"
   end
 end

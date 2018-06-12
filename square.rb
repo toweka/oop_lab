@@ -28,7 +28,7 @@ class Square
   end
 
   def scaled_answer
-    "Area: #{scaled_area} Perimeter: #{scaled_perimeter}"
+    "#SCALED Area: #{scaled_area} Perimeter: #{scaled_perimeter}"
   end
 
 end

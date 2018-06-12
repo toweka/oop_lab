@@ -28,3 +28,5 @@ puts square1.scaled_answer
 rectangle1 = Rectangle.new 4, 5, 7
 
 puts rectangle1.answer
+
+puts rectangle1.scaled_answer
