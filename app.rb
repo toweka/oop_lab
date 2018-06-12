@@ -15,10 +15,16 @@
 #
 # puts "Area: #{scaled_area} Perimeter: #{scaled_perimeter}"
 
-require_relative "object.rb"
+require_relative "square.rb"
+
+require_relative "rectangle.rb"
 
 square1 = Square.new 4, 5
 
 puts square1.answer
 
 puts square1.scaled_answer
+
+rectangle1 = Rectangle.new 4, 5, 7
+
+puts rectangle1.answer
